@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Week2</string>
+    <string name="toastButton">TOAST</string>
+    <string name="snackbarButton">SNACKBAR</string>
+    <string name="snackbarActionButton">SNACKBAR ACTION</string>
 </resources>
