@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/layout"
     tools:context=".ClassActivity">
 
     <Button
-        android:id="@+id/abbaButton"
+        android:id="@+id/snackbarButton"
         android:layout_width="@dimen/button_width"
         android:layout_height="wrap_content"
         android:text="@string/snackbarButton"
@@ -22,7 +23,7 @@
         android:layout_width="@dimen/button_width"
         android:layout_height="wrap_content"
         android:text="@string/toastButton"
-        app:layout_constraintBottom_toTopOf="@+id/abbaButton"
+        app:layout_constraintBottom_toTopOf="@+id/snackbarButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,5 +38,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/abbaButton" />
+        app:layout_constraintTop_toBottomOf="@+id/snackbarButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
